@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Aldi Herdika</title>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome -->
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <!-- AOS CSS -->
+    <link 
+        href="https://unpkg.com/aos@2.3.1/dist/aos.css" 
+        rel="stylesheet"
+    />
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">Aldi Herdika</h1>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#skills">Skill</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+
+            <div class="menu-toggle" id="menuToggle">☰</div>
+        </nav>
+    </header>
+
+    <!-- ================= HERO ================= -->
+    <section id="home" class="hero">
+        <div class="hero-content" data-aos="fade-right">
+            <h2>Hi, Saya <span>Aldi Herdika</span></h2>
+            <p>Fullstack Developer | Educator | Digital Creator</p>
+            <p>“Membangun website dan sistem informasi yang cepat, rapi dan mudah dikembangkan.”</p>
+            <a 
+                href="https://wa.me/6281234567890" 
+                target="_blank" 
+                class="btn-wa"
+            >
+                Hubungi Saya
+            </a>
+        </div>
+
+        <img 
+            src="assets/profile.png" 
+            alt="Profile Aldi Herdika" 
+            class="hero-img" 
+            data-aos="fade-left"
+        />
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section id="about" class="section" data-aos="fade-up">
+        <h2>Tentang Saya</h2>
+        <p>
+            Saya adalah Fullstack Developer dengan latar belakang Informatika,
+            berpengalaman dalam pengembangan web, sistem informasi,
+            serta pembuatan produk digital edukatif.
+        </p>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section id="skills" class="section gray">
+        <h2 data-aos="fade-up">Skill</h2>
+
+        <div class="skills">
+            <span data-aos="zoom-in" data-aos-delay="100">HTML</span>
+            <span data-aos="zoom-in" data-aos-delay="200">CSS</span>
+            <span data-aos="zoom-in" data-aos-delay="300">JavaScript</span>
+            <span data-aos="zoom-in" data-aos-delay="400">Python</span>
+            <span data-aos="zoom-in" data-aos-delay="500">React</span>
+            <span data-aos="zoom-in" data-aos-delay="600">Node.js</span>
+        </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section id="projects" class="section">
+        <h2 data-aos="fade-up">Project</h2>
+
+        <div class="projects">
+
+            <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                <img src="assets/project1.jpg" alt="Web Portfolio" />
+                <div class="project-content">
+                    <h3>Web Portfolio</h3>
+                    <p>Website personal responsive dan profesional.</p>
+                </div>
+            </div>
+
+            <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                <img src="assets/project2.jpg" alt="Sistem Informasi" />
+                <div class="project-content">
+                    <h3>Sistem Informasi</h3>
+                    <p>Pengembangan sistem berbasis web.</p>
+                </div>
+            </div>
+
+            <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                <img src="assets/project3.jpg" alt="Produk Digital" />
+                <div class="project-content">
+                    <h3>Produk Digital</h3>
+                    <p>Ebook dan template CV ATS friendly.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section id="contact" class="section gray" data-aos="fade-up">
+        <h2>Hubungi Saya</h2>
+
+        <div class="contact-card">
+            <div class="contact-icon">
+                <i class="fas fa-envelope-open-text"></i>
+            </div>
+
+            <h3>Kirim Pesan</h3>
+            <p>Silakan isi form di bawah untuk menghubungi saya</p>
+
+            <form
+                action="mailto:aldiherdika22@gmail.com"
+                method="POST"
+                enctype="text/plain"
+                class="contact-form"
+            >
+                <input 
+                    type="text" 
+                    name="Nama" 
+                    placeholder="Nama Anda" 
+                    required 
+                />
+
+                <input 
+                    type="email" 
+                    name="Email" 
+                    placeholder="Email Anda" 
+                    required 
+                />
+
+                <textarea 
+                    name="Pesan" 
+                    rows="4" 
+                    placeholder="Pesan Anda" 
+                    required
+                ></textarea>
+
+                <button type="submit">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        <div class="footer-social">
+            <a 
+                href="https://instagram.com/@aldihrdika" 
+                target="_blank" 
+                aria-label="Instagram"
+            >
+                <i class="fab fa-instagram"></i>
+            </a>
+
+            <a 
+                href="https://youtube.com/@aldiherdika5589" 
+                target="_blank" 
+                aria-label="YouTube"
+            >
+                <i class="fab fa-youtube"></i>
+            </a>
+
+            <a 
+                href="https://tiktok.com/@aldiherdika" 
+                target="_blank" 
+                aria-label="TikTok"
+            >
+                <i class="fab fa-tiktok"></i>
+            </a>
+        </div>
+
+        <p>© 2026 Aldi Herdika. All Rights Reserved.</p>
+    </footer>
+
+    <!-- ================= SCRIPT ================= -->
+    <script src="script.js"></script>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+
+</body>
+</html>
